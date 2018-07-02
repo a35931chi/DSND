@@ -1,0 +1,44 @@
+Lesson 3: 
+The introduction is lacking in telling us why OOP is necessary for data scientists. Many people's impression is data analysts are procedure based. we only use pandas, scikit learn, visualize, etc. An example of a production data science project would be nice. Maybe the video talks about this.
+
+
+"If you had used a method, then you would only have to change the method to convert from dollars to Euros."
+
+seems like the current material is trying to promote the use of methods due to convenience. I don't think this is a good example of why we should use method to change attributes instead of changing the attributes themselves
+
+using the mentioned example, the way to apply the exchange rate is to use shirt_one.change_price(10). how much more convenient is that compared to shirt_one.price = shirt_one.price * exchange_rate?
+
+convenience shouldn't be a reason for using methods. something like this may be more appropriate:
+
+def euro_usd_exchange(self, exchange_rate):
+	self.euro_price = self.usd_price * exchange_rate
+
+shirt_one.euro_usd_exchange(0.81)
+
+the "Set and Get methods [Optional]" is much beter than the preceeding material.
+
+Also, even though it recommended to use get_price instead of _price, it's often used in documentations google searches (stackoverflow).
+
+if it country_of_origin instead of country_of_origen?
+
+
+Lesson 4:
+some typo?
+5. HTML quiz wasn't working as HTLM TAG column was empty
+8. IDs and Classes quiz: should be 'class' instead of 'classe'
+There's repeated comments/TODO in the CSS exercise section:
+/* TODO: Udacity link 
+- make the Udacity link on its own line instead of next to the image
+- give the link a top and bottom margin of 20px
+- remove the underline
+- increase the font to 45px
+- change the font color to gray
+hint: the block value might be of interest
+https://www.w3schools.com/cssref/pr_class_display.asp
+hint: make sure to specify the Udacity link using the id; otherwise all links will be styled like the Udacity link
+*/
+
+
+I really enjoyed how the DSND curriculum talks about Web Development in the sense of promoting data scientist's portfolio. If there is a graded project at the end of the section to let the students build and showcase some data analysis findings through the internet, I think that would be great. The mentors and the graders and provide feedback on how to showcase findings. Also, this is great material for startup company's data scientists. However, this material needs tons of practice to gain fluency. section 24. Flas+Plotly+Pandas contained tons of info. Maybe it'll be better broken up?
+
+Also, the Exercises were difficult to load. Not sure if it's the user or the server.
