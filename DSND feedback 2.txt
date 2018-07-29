@@ -1,6 +1,8 @@
 Review Lesson 2 - Extract, Transform, Load (ETL) - coming July 25th:
 csv exercise is missing the later half of the content. needed to go to the solution to find the later half.
 in exercise cleaning data, instruction wanted us to create a new column name 'Country Name'. should be 'Official Country Name' because it's inconsistent with actual code
+same exercise, the dictionary 'dictionary' is not defined. should be country_not_found_mapping instead
+in exercise: matching encodings, there's no mystery.csv: FileNotFoundError: File b'mystery.csv' does not exist
 
 
 Review Lesson 3 - ML Pipelines
