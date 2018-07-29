@@ -1,5 +1,6 @@
 Review Lesson 2 - Extract, Transform, Load (ETL) - coming July 25th:
 csv exercise is missing the later half of the content. needed to go to the solution to find the later half.
+in exercise cleaning data, instruction wanted us to create a new column name 'Country Name'. should be 'Official Country Name' because it's inconsistent with actual code
 
 
 Review Lesson 3 - ML Pipelines
