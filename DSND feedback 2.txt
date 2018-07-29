@@ -1,0 +1,12 @@
+Review Lesson 2 - Extract, Transform, Load (ETL) - coming July 25th:
+csv exercise is missing the later half of the content. needed to go to the solution to find the later half.
+
+
+Review Lesson 3 - ML Pipelines
+no content in 17. Customer Transformers
+
+Review Lesson 4 - Natural Language Processing (NLP): 
+quiz: bag of words and TF-IDF is missing
+
+no application for one-hot encoding, word embedding, word2vec, GloVe, Embedding for, t-SNE
+the 30.Summary is a repeat of 17.Text Processing Summary
