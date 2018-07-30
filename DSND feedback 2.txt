@@ -8,6 +8,7 @@ in exercise: matching encodings, there's no mystery.csv: FileNotFoundError: File
 in exercise duplicated data exercise, the comment April 4th, 1992 is incorrect. should be April 27th, 1992.
 in the same cell, countryname is missing a front quote
 in the dummy variables exercise, some explanation was very confusing, especially the part we are using re to create a new variable containing categories. 
+in the outliers exercise, there's no inline statement or import matplotlib & plt.show
 
 Review Lesson 3 - ML Pipelines
 no content in 17. Customer Transformers
