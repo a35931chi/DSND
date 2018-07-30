@@ -1,20 +1,24 @@
-Review Lesson 2 - Extract, Transform, Load (ETL) - coming July 25th:
+Notes I took for each section
+1. Review Lesson 2 - Extract, Transform, Load (ETL)
 I think generally it's a good idea to go over regex. it's used couple times in these exercises, and widely in NLP.
 
-csv exercise is missing the later half of the content. needed to go to the solution to find the later half.
-in exercise cleaning data, instruction wanted us to create a new column name 'Country Name'. should be 'Official Country Name' because it's inconsistent with actual code
-same exercise, the dictionary 'dictionary' is not defined. should be country_not_found_mapping instead
-in exercise: matching encodings, there's no mystery.csv: FileNotFoundError: File b'mystery.csv' does not exist
-in exercise duplicated data exercise, the comment April 4th, 1992 is incorrect. should be April 27th, 1992.
-in the same cell, countryname is missing a front quote
-in the dummy variables exercise, some explanation was very confusing, especially the part we are using re to create a new variable containing categories. 
-in the outliers exercise, there's no inline statement or import matplotlib & plt.show
+- csv exercise is missing the later half of the content. needed to go to the solution to find the later half.
+- in cleaning data exercise, instruction wanted us to create a new column name 'Country Name'. should be 'Official Country Name' because it's inconsistent with actual code
+- same exercise, the dictionary 'dictionary' is not defined. should be country_not_found_mapping instead
+- in the matching encodings exercise, there's no mystery.csv: FileNotFoundError: File b'mystery.csv' does not exist
+- in the duplicated data exercise, the comment April 4th, 1992 is incorrect. should be April 27th, 1992.
+- in the same cell, countryname is missing a front quote
+- in the dummy variables exercise, some explanation was very confusing, especially the part we are using re to create a new variable containing categories. 
+- in the outliers exercise, there's no inline statement or import matplotlib & plt.show
+- in the outliers exercise demo section, the GDP and Population are flipped on the axes
+- Scaling Exercise not found
+- Feature Engineering Exercise not found
+- Load Exercise not found
 
 Review Lesson 3 - ML Pipelines
-no content in 17. Customer Transformers
+- no content in 17. Customer Transformers
 
 Review Lesson 4 - Natural Language Processing (NLP): 
-quiz: bag of words and TF-IDF is missing
-
-no application for one-hot encoding, word embedding, word2vec, GloVe, Embedding for, t-SNE
-the 30.Summary is a repeat of 17.Text Processing Summary
+- quiz: bag of words and TF-IDF is missing
+- the 30.Summary is a repeat of 17.Text Processing Summary
+- no application for one-hot encoding, word embedding, word2vec, GloVe, Embedding for, t-SNE
