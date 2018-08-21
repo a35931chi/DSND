@@ -1,0 +1,3 @@
+in the Experiment size, the content metioned that we need 2863 samples from each layout. I think it would be great to have a pratical exercise to reach this number with an ipython notebook exercise.
+
+The content also mentioned practical significance, power, timeliness of experiment. Again, I think an exercise would help solidify these concepts. Assuming all the exercises/quizes are in place, I think this is a great section. Not only does this content help with practical on the job performance, but it also helps with interviews. 
